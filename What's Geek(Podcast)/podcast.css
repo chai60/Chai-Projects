@@ -1,0 +1,73 @@
+.jumbotron {
+	background: url("pics/back.jpeg") no-repeat;
+	opacity: .7;
+	filter: grayscale(-.9);
+	min-height: 500px;
+	background-attachment: fixed;
+}
+
+body {
+	background-color: #171c25;
+	color: black;
+}
+
+.card {
+	display: inline-block;
+	height: 350px;
+}
+
+.card p {
+	color: black;
+}
+
+.tile {
+	transition: .3s;
+	opacity: .5;
+}
+
+.tile:hover {
+	transform: scale(1.1);
+	opacity: 1;
+
+}
+
+.card-body {
+	position: absolute;
+	bottom: 0;
+	padding: 2em;
+	padding-left: 0;
+}
+
+.one {
+	background: url('pics/1.jpeg') no-repeat;
+	background-size: cover;
+}
+
+.two {
+	background: url('pics/2.jpeg') no-repeat;
+	background-size: cover;
+}
+
+.three {
+	background: url('pics/3.jpeg') no-repeat;
+	background-size: cover;
+}
+
+.four {
+	background: url('pics/4.jpeg') no-repeat;
+	background-size: cover;
+}
+
+.five {
+	background: url('pics/5.jpeg') no-repeat;
+	background-size: cover;
+}
+
+.six {
+	background: url('pics/6.jpeg') no-repeat;
+	background-size: cover;
+}
+
+#about {
+	color: white;
+}
