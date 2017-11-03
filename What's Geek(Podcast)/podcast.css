@@ -1,4 +1,4 @@
-.jumbotron {
+#front {
 	background: url("pics/back.jpeg") no-repeat;
 	opacity: .7;
 	filter: grayscale(-.9);
@@ -11,12 +11,12 @@ body {
 	color: black;
 }
 
-.card {
+.slot {
 	display: inline-block;
 	height: 350px;
 }
 
-.card p {
+.slot p {
 	color: black;
 }
 
@@ -31,7 +31,7 @@ body {
 
 }
 
-.card-body {
+.main-body {
 	position: absolute;
 	bottom: 0;
 	padding: 2em;
@@ -71,3 +71,25 @@ body {
 #about {
 	color: white;
 }
+
+
+/* Team Page */
+
+#team {
+	background: url('pics/team-back.jpeg') no-repeat;
+	min-height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#sam {
+	width: 200px;
+	border-radius: 100px;
+	
+}
+
+.profile {
+	display: inline-block;
+	height: 350px;
+}
+
