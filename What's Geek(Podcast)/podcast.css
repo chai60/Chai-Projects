@@ -1,95 +1,50 @@
-#front {
-	background: url("pics/back.jpeg") no-repeat;
-	opacity: .7;
-	filter: grayscale(-.9);
-	min-height: 500px;
-	background-attachment: fixed;
+/* Home Page */
+
+#home {
+	background-color: #343a40;
 }
 
-body {
-	background-color: #171c25;
-	color: black;
+.head-image {
+	background: url('pics/dish.jpg') no-repeat;
+	background-size: cover;
+	height: 750px;
 }
 
-.slot {
-	display: inline-block;
-	height: 350px;
+.small-pic {
+	display: none;
 }
 
-.slot p {
-	color: black;
+
+#title {
+	font-size: 1.25;
+	font-weight: 400px;
 }
 
-.tile {
-	transition: .3s;
-	opacity: .5;
-}
-
-.tile:hover {
-	transform: scale(1.1);
-	opacity: 1;
-
-}
-
-.main-body {
+.word {
 	position: absolute;
-	bottom: 0;
-	padding: 2em;
-	padding-left: 0;
+    bottom: 0;
+    color: #AEC3B0;
+    padding: 2em;
+    padding-left: 0;
 }
 
-.one {
-	background: url('pics/1.jpeg') no-repeat;
-	background-size: cover;
+.image-container:hover {
+	transform: scale(1.1);
+	filter: grayscale(0);
 }
 
-.two {
-	background: url('pics/2.jpeg') no-repeat;
-	background-size: cover;
-}
-
-.three {
-	background: url('pics/3.jpeg') no-repeat;
-	background-size: cover;
-}
-
-.four {
-	background: url('pics/4.jpeg') no-repeat;
-	background-size: cover;
-}
-
-.five {
-	background: url('pics/5.jpeg') no-repeat;
-	background-size: cover;
-}
-
-.six {
-	background: url('pics/6.jpeg') no-repeat;
-	background-size: cover;
-}
-
-#about {
-	color: white;
-}
-
-
-/* Team Page */
-
-#team {
-	background: url('pics/team-back.jpeg') no-repeat;
-	min-height: 500px;
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#sam {
-	width: 200px;
-	border-radius: 100px;
-	
-}
-
-.profile {
-	display: inline-block;
+.image-container {
+	transition: .2s;
+	filter: grayscale(75%);
 	height: 350px;
 }
 
+
+@media (max-width: 450px) {
+	.head-image {
+		display: none;
+	}
+	.small-pic {
+		display: show;
+	}
+}

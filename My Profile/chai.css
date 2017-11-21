@@ -1,0 +1,49 @@
+body {
+	background: #333;
+	color: #fff;
+}
+
+.navbar {
+	border-bottom: #008ed6 3px solid;
+	opacity: 0.8;
+}
+
+header {
+	background: url("home.jpeg") no-repeat;
+	min-height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.9;
+}
+
+.title-1 {
+	color: #000033;
+	font-size: 5rem;
+	text-shadow: 2px 2px 2px;
+}
+
+.project-img {
+	height: 17rem;
+}
+
+#js {
+	filter: grayscale(100%);
+}
+
+.pod {
+	background: url('podcast.jpg') no-repeat;
+	min-height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#social {
+	min-height: 3rem;
+}
+.icon {
+	font-size: 3rem;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.
