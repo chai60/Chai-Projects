@@ -1,0 +1,113 @@
+/* Home Page */
+
+#home {
+	background: url("pic/lancecover2.jpg");
+	background-size: cover;
+	height: 25rem;
+}
+
+.display-3 {
+	color: #343a40;
+	position: absolute;
+	font-size: 2rem;
+}
+
+.para {
+	color: #343a40;
+	position: absolute;
+	right: 30px;
+	top: 150px;
+	font-size: 24px;
+}
+
+@media (min-width: 576px) {
+	.para {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 992px) {
+	.para {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 576px) {
+	#bio-title { 
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 992px) {
+	#bio-title {
+		font-size: 32px;
+	}
+}
+
+.schedule {
+	margin-bottom: 5rem;
+}
+
+
+.footer {
+	height: 3em;
+}
+
+
+/* Biography Page */
+
+#bio {
+	background: url("pic/lancecovertest.jpg");
+	height: 25rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: scroll, fixed;
+}
+
+#bio-title {
+	position: absolute;
+	color: white;
+	top: 200px;
+}
+
+.profile {
+	max-width: 100%;
+	height: 28rem;
+
+}
+
+.actor {
+	margin: 1rem;
+	margin-top: 0;
+	height: 20rem;
+}
+
+
+/* Martial Arts Page */
+
+#marts {
+	background: url("pic/lancecover3test.jpg");
+	height: 25rem;
+}
+
+#Mart-title {
+	position: absolute;
+	color: white;
+	top: 150px;
+}
+
+.float {
+	clear-float: clear;
+}
+
+.mstyle {
+	width: 20rem;
+}
+
+.ms-2 {
+	top: 3rem;
+}
+
+.ms-3 {
+	top: 6rem;
+}
